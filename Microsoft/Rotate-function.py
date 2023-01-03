@@ -1,4 +1,4 @@
-def maxRotateFunction(self, A):
+def maxRotateFunction(A):
     ref = curr = sum(i * j for i,j in enumerate(A))
     sum = sum(A)
     n = len(A)

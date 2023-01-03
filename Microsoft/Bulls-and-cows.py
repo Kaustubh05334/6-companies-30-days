@@ -1,5 +1,5 @@
 from collections import Counter
-def getHint(self, secret: str, guess: str) -> str:
+def getHint(secret: str, guess: str) -> str:
     numbulls=0
     numcows=0
     ser = Counter(secret)

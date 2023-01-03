@@ -1,4 +1,4 @@
-def evalRPN(self, tokens):
+def evalRPN(tokens):
     operations = {
         "*": lambda x,y: x*y,
         "+": lambda x,y: x+y,
